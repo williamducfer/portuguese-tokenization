@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 import argparse
@@ -74,7 +73,7 @@ if __name__ == '__main__':
 
     args_parser.add_argument('dataset_dir', help='Directory with files to be tokenized.')
     args_parser.add_argument('output_dir', help='Directory to save tokenized files.')
-    args_parser.add_argument('email_address', help='E-mail address of the package manager in LER system.')
+    args_parser.add_argument('email_address', help='E-mail address of the package manager in ERAS annotation system.')
     args_parser.add_argument('-l', '--lowercase', type=int, choices=[0, 1], default=1, help='Choose whether lowercase '
                                                                                             'the words in the dataset.')
     args_parser.add_argument('-r', '--remove_stopwords', type=int, choices=[0, 1], default=0, help='Choose whether '
@@ -95,8 +94,8 @@ if __name__ == '__main__':
                                                                                                   'keep words with '
                                                                                                   'at least three '
                                                                                                   'characters.')
-    args_parser.add_argument('-t', '--tokens_per_line', type=int, default=10, help='Number of tokens per line in LER '
-                                                                                   'annotation tool.')
+    args_parser.add_argument('-t', '--tokens_per_line', type=int, default=10, help='Number of tokens per line in ERAS '
+                                                                                   'annotation system.')
 
     args = args_parser.parse_args()
 
