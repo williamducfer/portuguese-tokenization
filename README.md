@@ -38,7 +38,7 @@ def preprocess_text(text,
 
 The project also has two scripts to tokenize files
   from the console, _tokenize_files_in_dir.py_ and
-  _tokenize_files_in_dir_for_ler.py_.
+  _tokenize_files_in_dir_for_eras_annotation system.py_ (https://github.com/jonatasgrosman/eras).
 They basically tokenize files contained in a
   dataset directory, and save them in an output 
   directory.
