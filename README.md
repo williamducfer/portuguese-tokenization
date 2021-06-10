@@ -3,13 +3,9 @@
 Library to tokenize and preprocess texts
   written in Portuguese.
 To use the library,
-  firstly it is necessary to clone this repositoty.
-After cloned,
-  open the command line and
-  execute the command below in the
-  root folder of the library.
+  it is necessary to execute the pip command below.
 ```bash
-pip install -e .
+pip install -e git+https://github.com/williamducfer/portuguese-tokenization#egg=tokenization
 ```
 
 To use the library in its simplest mode,
