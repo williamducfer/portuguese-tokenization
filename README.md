@@ -1,4 +1,4 @@
-# Tokenization
+# Tokenization for Portuguese
 
 Library to tokenize and preprocess texts
   written in Portuguese.
